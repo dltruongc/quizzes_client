@@ -1,5 +1,3 @@
-import './SideBar.scss';
-
 export default function SideBarAvatar(props) {
     return <div className='side_bar__avatar'>
         <div className="side_bar__avatar__logo"></div>
