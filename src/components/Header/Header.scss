@@ -1,0 +1,31 @@
+
+.header {
+    background-color: #461b42;
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+    &__left {
+      font-weight: 700;
+      margin-right: 2rem;
+    }
+  
+    &__right {
+      display: flex;
+      width: 100%;
+      align-items: center;
+    }
+  
+    &__search {
+      flex: 1;
+      border: 1px solid greenyellow;
+      margin-right: 1rem;
+    }
+  }
+  
