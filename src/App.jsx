@@ -1,12 +1,17 @@
 import "./App.scss";
-import Header from './components/Header';
-import SideBar from './components/SideBar';
+import BodyContainer from "./components/BodyContainer";
+import Header from "./components/Header";
+import SideBar from "./components/SideBar";
+import Explore from "./pages/Explore";
 
 function App() {
   return (
     <>
       <Header />
-      <SideBar />
+      <BodyContainer>
+        <SideBar />
+        <Explore />
+      </BodyContainer>
     </>
   );
 }
