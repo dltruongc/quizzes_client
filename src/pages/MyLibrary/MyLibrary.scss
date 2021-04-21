@@ -1,0 +1,40 @@
+.library {
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 100%;
+  overflow-y: scroll;
+
+  &__no_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+    &__image {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 420px;
+      height: 420px;
+      display: inline-block;
+    }
+
+    &__title {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: #333;
+      line-height: 1.5rem;
+    }
+
+    &__sub_title {
+      max-width: 360px;
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.2rem;
+      color: #888;
+    }
+  }
+}

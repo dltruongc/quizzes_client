@@ -45,3 +45,45 @@ a {
     background-color: rgba(0, 0, 0, 0.3);
   }
 }
+
+.btn-primary {
+  background-color: #8854c0;
+  border-radius: 4px;
+
+  border-bottom: 4px solid #481f74;
+
+  &:hover {
+    background-color: #9066be;
+  }
+
+  &:active {
+    background-color: #9066be;
+  }
+}
+
+.btn-secondary {
+  background-color: #fff;
+  border-radius: 4px;
+  color: black;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.3);
+
+  &:hover {
+    background-color: #efefef;
+  }
+
+  &:active {
+    background-color: #efefef;
+  }
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}

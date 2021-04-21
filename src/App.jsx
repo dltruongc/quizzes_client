@@ -2,7 +2,8 @@ import "./App.scss";
 import BodyContainer from "./components/BodyContainer";
 import Header from "./components/Header";
 import SideBar from "./components/SideBar";
-import Explore from "./pages/Explore";
+// import Explore from "./pages/Explore";
+import MyLibrary from "./pages/MyLibrary";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <BodyContainer>
         <SideBar />
-        <Explore />
+        {/* <Explore /> */}
+        <MyLibrary />
       </BodyContainer>
     </>
   );
